@@ -25,6 +25,7 @@ h5{
 	color: rgb(141,135,145);
 }
 li{
+	text-align: center;
 	padding: 20px;
 }
 nav{
@@ -38,7 +39,6 @@ nav, a,#yo .flex-txt {
 	color: rgb(225, 215, 230);
 }
 ul{
-	display: block;
 	list-style: none;
 }
 nav li{
@@ -134,14 +134,10 @@ li a:hover::before{
 	opacity: 1;
 	transition: opacity .5s;
 }
-
-.flex-cursos{
-	display: block;
+.flex-cursos h4{
 	text-align: center;
-}
-.flex-cursos ul{
-	display: block;
-	padding-bottom: 80px ;
+	font-weight: 500;
+	padding: 20px;
 }
 .titulo{
 	padding: 30px;
