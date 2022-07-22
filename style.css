@@ -210,7 +210,7 @@ footer h3{
 	text-align: center;
 }
 
-@media (min-width: 900px){
+@media (min-width: 750px){
 	nav{
 		display: flex;
 		justify-content: space-between;
