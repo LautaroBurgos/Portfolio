@@ -134,10 +134,13 @@ li a:hover::before{
 	opacity: 1;
 	transition: opacity .5s;
 }
+.flex-cursos{
+	padding-bottom: 40px;
+}
 .flex-cursos h4{
 	text-align: center;
 	font-weight: 500;
-	padding: 20px;
+	padding: 25px;
 }
 .titulo{
 	padding: 30px;
