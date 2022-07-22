@@ -5,9 +5,11 @@
 	user-select: none;
 }
 p{
+	text-align: center;
 	font-size: 20px;
 }
 h2{
+	text-align: center;
 	font-size: 30px;
 }
 h3{
@@ -92,9 +94,7 @@ li a:hover::before{
 	height: 60%;
 	padding: 50px 50px;
 	text-align: center;
-	justify-content: bottom;
 }
-
 .flex-aptitudes{
 	text-align: center;
 	padding: 20px;
@@ -225,7 +225,7 @@ footer h3{
 		display: flex;
 		align-items: center;
 		margin: 0;
-		height: 70vh;
+		height: 400px;
 		justify-content: center;
 	}
 	.flex-img{
@@ -233,9 +233,11 @@ footer h3{
 		margin: 0;
 	}
 	.flex-txt{
-		width: 30%;
+		width: 40%;
 		height: 60%;
 		padding: 120px 100px 50px 0px;
+	}
+	.flex-txt p,.flex-txt h2{
 		text-align: left;
 	}
 	.flex-proyectos{
