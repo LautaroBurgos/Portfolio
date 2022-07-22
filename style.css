@@ -186,7 +186,7 @@ footer{
 	background-color:rgb(62,59,64);
 }
 footer h3{
-	padding: 20px;
+	padding: 20px 0px 0px 0px;
 }
 .flex-logos2{
 	display: flex;
