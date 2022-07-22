@@ -209,7 +209,7 @@ footer h3{
 	background-color:rgb(40,45,47); 
 	text-align: center;
 }
-@media (min-width: 900px) or (orientation: landscape){
+@media (min-width: 900px){
 	nav{
 		display: flex;
 		justify-content: space-between;
@@ -247,9 +247,4 @@ footer h3{
 	.proyecto{
 		width: 30%;
 	}
-}/*
-@media (max-width: 900px) and (orientation: landscape){
-	#yo{
-		width: 100%;
-	}
-}*/
+}
