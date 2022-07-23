@@ -158,8 +158,8 @@ li a:hover::before{
 	flex-wrap: wrap;
 }
 .proyecto{
-	width:50% ;
-	height: 450px;
+	width:60% ;
+	height: 500px;
 	border-style: solid;
 	border-radius: 70px;
 	border-color:rgb(225, 215, 230); 
