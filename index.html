@@ -17,71 +17,77 @@
 			</ul>
 		</nav>
 	</header>
-	<div  id="yo">
-		<div class="flex-img">
+	<div  class="yo">
+		<div class="yo__flex-img">
 			<img src="fotocarnet.jpeg" alt="Mi Foto">
 		</div>
-		<div class="flex-txt">
+		<div class="yo__flex-txt">
 			<h2>Sobre mi</h2>
-			<p>Soy un técnico electronico recibido, estudiante de Sistemas en la U.B.A y 
+			<p>Soy un técnico electrónico recibido, estudiante de Sistemas en la U.B.A y 
 			programador autodidacta.</p>
 		</div>
 	</div>
-	<div class="flex-aptitudes" id="Aptitudes">
-		<div id="apt"><h2>Aptitudes</h2>
+	<div class="flex-aptitudes" >
+		<div class="flex-aptitudes__apt"><h2>Aptitudes</h2>
 			<p>Estas son las tecnologías de las que poseo conocimientos.</p>
 		</div>
-		<div class="flex-logos">
+		<div class="flex-aptitudes__flex-logos">
 			<div class="logo" id="c">
-				<h4>Lenguaje C</h4>
-				<img src="c.png"></div>
+				<h4 class="logo__titulo">Lenguaje C</h4>
+				<img class="logo__img" src="c.png"></div>
 			<div class="logo" id="c2">
-				<h4>C++</h4>
-				<img src="c++.png"> </div>
+				<h4 class="logo__titulo">C++</h4>
+				<img class="logo__img" src="c++.png"> </div>
 			<div class="logo" id="html">
-				<h4>HTML5</h4>
-				<img src="html.png"></div>
+				<h4 class="logo__titulo">HTML5</h4>
+				<img class="logo__img" src="html.png"></div>
 			<div class="logo" id="css">
-				<h4>CSS3</h4>
-				<img src="css.png"></div>
+				<h4 class="logo__titulo">CSS3</h4>
+				<img class="logo__img" src="css.png"></div>
 			<div class="logo" id="python">
-				<h4>Python</h4>
-				<img src="python.png"></div>
+				<h4 class="logo__titulo">Python</h4>
+				<img class="logo__img" src="python.png"></div>
 		</div>
 	</div>
 	<div class="flex-cursos">
-		<h2>Cursos Realizados</h2>
-		<h4>Curso de Fundamentos de la programación web con HTML Y CSS</h4>
-		<h4>Curso de Fundamentos de Python</h4>
-		<h4>Curso de Software Tester QA</h4>
-		<h4>Carrera de Desarrollo Backend(En curso)</h4>
+		<h2 class="flex-cursos__titulo">Cursos Realizados</h2>
+		<h4 class="flex-cursos__item">Curso de Fundamentos de la programación web con HTML Y CSS</h4>
+		<h4 class="flex-cursos__item">Curso de Fundamentos de Python</h4>
+		<h4 class="flex-cursos__item">Curso de Software Tester QA</h4>
+		<h4 class="flex-cursos__item">Carrera de Desarrollo Backend(En curso)</h4>
 	</div>
-	<div class="flex-proyectos" id="Proyectos">
-		<div class="titulo"><h2>Mis Proyectos</h2></div>
-		<div class="mis-proyectos">
+	<div class="flex-proyectos">
+		<div class="flex-proyectos__titulo"><h2>Mis Proyectos</h2></div>
+		<div class="flex-proyectos__mis-proyectos">
 			<div class="proyecto">
 				<h3>Batalla Campal</h3>
-				<img src="bcampal.png">
+				<img class="proyecto__img" src="bcampal.png">
 				<p>Proyecto grupal llevado a cabo en C++, en la Universidad
 				de Buenos Aires.</p>
-				<a href="https://github.com/LautaroBurgos/TP-Algo-2-Grupal" target="BLANK">Ver más</a>
+				<a class="proyecto__link" href="https://github.com/LautaroBurgos/TP-Algo-2-Grupal" target="BLANK">Ver más</a>
 			</div>
 			<div class="proyecto">
 				<h3>Pagina Web para Emprendimiento</h3>
-				<img src="dpolar.jpg">
+				<img class="proyecto__img" src="dpolar.jpg">
 				<p>Página web hecha para el emprendimiento de cosas
 				dulces "Dulce Polar". </p>
-				<a href="" >Ver más</a>
+				<a class="proyecto__link" href="" >Ver más</a>
 			</div>
 		</div>
 	</div>
-	<footer id="Contactame">
-		<div class="titulo"><h2>Contactame</h2></div>
-		<div class="flex-logos2">
-			<div class="logo"><a href="https://www.linkedin.com/in/lautaro-burgos-471955228/" name="Linkedin" target="BLANK"><img src="linkedin.png" alt="Linkedin"></a></div>
-			<div class="logo"><a href="https://github.com/LautaroBurgos" name="Github" target="BLANK"><img src="github.png" alt="GitHub"></a></div>
+	<footer class="contactame">
+		<div class="contactame__titulo"><h2>Contactame</h2></div>
+		<div class="contactame__flex-logos">
+			<div class="logo">
+				<a href="https://www.linkedin.com/in/lautaro-burgos-471955228/" name="Linkedin" target="BLANK">
+				<img src="linkedin.png" alt="Linkedin"></a>
+			</div>
+			<div class="logo">
+				<a href="https://github.com/LautaroBurgos" name="Github" target="BLANK">
+					<img src="github.png" alt="GitHub"></a>
+				</div>
 		</div>
-		<div class="info"><h5>Portfolio realizado en HTML y CSS con código nativo por mi.</h5></div>
+		<div class="contactame__info"><h5>Portfolio realizado en HTML y CSS con código nativo por mi.</h5></div>
 	</footer>
 </body>
 </html>
