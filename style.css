@@ -4,6 +4,9 @@
 	scroll-behavior: smooth;
 	user-select: none;
 }
+body{
+	width: 100%;
+}
 p{
 	text-align: center;
 	font-size: 20px;
@@ -233,7 +236,7 @@ footer{
 		height: 60%;
 		padding: 120px 100px 50px 0px;
 	}
-	.yo__flex-txt p,.yo__lex-txt h2{
+	.yo__flex-txt p, .yo__flex-txt h2{
 		text-align: left;
 	}
 	.flex-proyectos{
