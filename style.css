@@ -209,6 +209,9 @@ footer{
 	padding: 20px;
 
 }
+.contactame__flex-logos .logo:hover{
+	opacity: .7;
+}
 .contactame__info{
 	width: 100%;
 	height: 40px;
