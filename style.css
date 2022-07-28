@@ -156,6 +156,9 @@ li a:hover::before{
 	color: rgb(225, 215, 230);
 	text-align: center;
 }
+.proyecto:hover{
+	transform: scale(1.15);
+}
 .flex-proyectos__titulo{
 	padding: 20px;
 }
@@ -174,6 +177,7 @@ li a:hover::before{
 	margin-bottom: 40px;
 	padding: 30px;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	transition: all 600ms;
 }
 .proyecto__img{
 	width: 200px;
@@ -196,7 +200,7 @@ footer{
 	padding: 20px;
 }
 .contactame__flex-logos{
-		display: flex;
+	display: flex;
 	padding: 0px 30px;
 	justify-content: center;
 }
@@ -211,7 +215,6 @@ footer{
 	background-color:rgb(40,45,47); 
 	text-align: center;
 }
-
 @media (min-width: 750px){
 	nav{
 		display: flex;
